@@ -60,8 +60,9 @@
       align-items: center;
       list-style: none;
       text-align: center;
-      margin-right: 225px;
-
+      @media screen and (min-width: 1200px) {
+        margin-right: 225px;
+      }
       @media screen and (max-width: 768px) {
         display: none;
       }
@@ -79,7 +80,11 @@
           padding: 0 0.9rem;
           height: 100%;
           cursor: pointer;
-
+          &:hover {
+            color: #01bf71;
+            transition: all 0.2s ease-in-out;
+            border-bottom: 5px solid #01bf71;
+          }
           &.active {
             border-bottom: 3px solid #01bf71;
           }
