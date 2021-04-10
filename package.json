@@ -12,6 +12,8 @@
     "commit": "git-cz"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "next": "^10.1.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,10 +21,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-decorators": "^7.13.15",
     "@types/next": "^9.0.0",
     "@types/react": "^17.0.3",
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
+    "@zerollup/ts-transform-paths": "^1.7.18",
     "typescript": "^4.2.4"
   }
 }

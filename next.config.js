@@ -1,8 +1,7 @@
-const withTypescript = require('@zeit/next-typescript')
-module.exports = withTypescript({
-  target: 'serverless',
-  webpack: (config, options) => {
-    config.plugins = config.plugins || []
-    return config
+const path = require('path')
+
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'src/styles')],
   },
-})
+}
