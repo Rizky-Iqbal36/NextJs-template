@@ -17,7 +17,8 @@
     "next": "^10.1.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "webpack": "^5.31.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
@@ -27,6 +28,12 @@
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "@zerollup/ts-transform-paths": "^1.7.18",
+    "css-loader": "^1.0.0",
+    "html-loader": "^2.1.2",
+    "next-images": "^1.7.0",
+    "next-videos": "1.4.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^2.0.0",
     "typescript": "^4.2.4"
   }
 }

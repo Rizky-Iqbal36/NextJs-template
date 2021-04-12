@@ -6,7 +6,7 @@ interface Iprops {
   isOpen: boolean
   toggle: () => void
 }
-const Sidebar: React.FC<Iprops> = ({ toggle, isOpen }) => {
+const SideBar: React.FC<Iprops> = ({ toggle, isOpen }) => {
   return (
     <div
       className={Styled.sideBarContainer}
@@ -30,4 +30,4 @@ const Sidebar: React.FC<Iprops> = ({ toggle, isOpen }) => {
   )
 }
 
-export default Sidebar
+export default SideBar

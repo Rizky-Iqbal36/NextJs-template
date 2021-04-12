@@ -5,12 +5,12 @@ import Styled from './navbar.module.scss'
 interface Iprops {
   toggle: () => void
 }
-export default class Navbar extends Component<Iprops> {
+export default class NavBar extends Component<Iprops> {
   render() {
     return (
       <div className={Styled.nav}>
         <div className={Styled.navbarContainer}>
-          <div className={Styled.navLogo}>Stardenburdenhardenbart</div>
+          <div className={Styled.navLogo}>Vershmelzen</div>
           <div className={Styled.mobileIcon} onClick={this.props.toggle}>
             <MenuRounded fontSize="large" />
           </div>

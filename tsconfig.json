@@ -4,7 +4,8 @@
     "paths": {
       "@root/*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@pages/*": ["src/pages/*"]
+      "@pages/*": ["src/pages/*"],
+      "@assets/*": ["src/assets/*"]
     },
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
