@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .nav {
   background: #000;
   height: 80px;
@@ -81,12 +83,12 @@
           height: 100%;
           cursor: pointer;
           &:hover {
-            color: #01bf71;
+            color: $primary-color;
             transition: all 0.2s ease-in-out;
-            border-bottom: 5px solid #01bf71;
+            border-bottom: 5px solid $primary-color;
           }
           &.active {
-            border-bottom: 3px solid #01bf71;
+            border-bottom: 3px solid $primary-color;
           }
         }
       }
@@ -101,10 +103,10 @@
 
       .navBtnLink {
         border-radius: 50px;
-        background: #01bf71;
+        background: $primary-color;
         white-space: nowrap;
         padding: 10px 22px;
-        color: #010606;
+        color: $dark;
         font-size: 14px;
         outline: none;
         cursor: pointer;
@@ -114,7 +116,7 @@
         &:hover {
           transition: all 0.2s ease-in-out;
           background: #fff;
-          color: #010606;
+          color: $dark;
         }
       }
     }
