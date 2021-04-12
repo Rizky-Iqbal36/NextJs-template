@@ -6,7 +6,7 @@ const HeroSection = () => {
   console.log(Video)
   return (
     <div className={Styled.heroContainer}>
-      <div className={Styled.heroBg}>
+      <div className={Styled.heroBg} style={{ opacity: 0.75 }}>
         <video className={Styled.videoBg} autoPlay loop muted src={Video} />
       </div>
       <div className={Styled.heroContent}>
