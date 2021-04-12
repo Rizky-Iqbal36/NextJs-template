@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@import '../../../styles/variables.scss';
 
 .nav {
   background: #000;
@@ -64,7 +64,7 @@
       list-style: none;
       text-align: center;
       @media screen and (min-width: 1200px) {
-        margin-right: 100px;
+        margin-right: 65px;
       }
       @media screen and (max-width: 768px) {
         display: none;
