@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://nextjs.org/" target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNext.js&psig=AOvVaw21A3uUdbT7sCiLApG7_VJs&ust=1623309288770000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCyor6AivECFQAAAAAdAAAAABAI" width="320" alt="Nest Logo" /></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
 ## Description
