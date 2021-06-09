@@ -5,7 +5,8 @@
       "@root/*": ["src/*"],
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@styles/*": ["src/styles"]
     },
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
